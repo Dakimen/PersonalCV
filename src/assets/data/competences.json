@@ -1,0 +1,80 @@
+[
+	{
+		"id": "1",
+		"name": "JavaScript",
+		"image": "",
+		"type": "frontend"
+	},
+	{
+		"id": "2",
+		"name": "React",
+		"image": "",
+		"type": "frontend"
+	},
+	{
+		"id": "3",
+		"name": "HTML5 et CSS3",
+		"image":"",
+		"type":"frontend"
+	},
+	{
+		"id": "4",
+		"name": "Sass",
+		"image": "",
+		"type":"frontend"
+	},
+	{
+		"id": "5",
+		"name": "Node.js",
+		"image": "",
+		"type":"backend"
+	},
+	{
+		"id": "6",
+		"name": "C++",
+		"image": "",
+		"type":"backend"
+	},
+	{
+		"id": "7",
+		"name": "Express.js",
+		"image": "",
+		"type":"backend"
+	},
+	{
+		"id": "8",
+		"name": "Git/Github",
+		"image": "",
+		"type":"tool"
+	},
+	{
+		"id": "9",
+		"name": "Visual Studio Code",
+		"image": "",
+		"type":"tool"
+	},
+	{
+		"id": "10",
+		"name": "Code::Blocks",
+		"image": "",
+		"type":"tool"
+	},
+	{
+		"id": "11",
+		"name": "Wave and Chrome Dev Tools",
+		"image": "",
+		"type":"tool"
+	},
+	{
+		"id": "12",
+		"name": "MongoDB",
+		"image": "",
+		"type":"tool"
+	},
+	{
+		"id": "13",
+		"name": "Figma",
+		"image": "",
+		"type":"tool"
+	}
+]
