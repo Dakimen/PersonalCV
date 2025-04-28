@@ -19,3 +19,12 @@
     }
 
 }
+
+@media (max-width: 767.98px) {
+    .banner {
+        height: 350px;
+        .banner-over {
+            font-size: 30px;
+        }
+    }
+}

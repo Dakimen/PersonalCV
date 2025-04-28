@@ -58,3 +58,21 @@
     from{width: 40px;}
     to{width: 50px;}
 }
+
+@media (max-width: 767.98px) {
+    .footer {
+        flex-direction: column;
+        height: auto;
+
+        h3 {
+            padding: 10px 0;
+        }
+        a {
+        .buttonContact {
+            margin-right: 0px;
+        }}
+        .socialMedia {
+            padding: 10px 0;
+        }
+    }
+}

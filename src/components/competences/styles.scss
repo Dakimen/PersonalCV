@@ -35,3 +35,22 @@
         }
     }
 }
+
+@media (max-width: 1024px) {
+    .competences-container-main {
+        .competences-column {
+            padding-left: 10px;
+        }
+    }
+}
+
+@media (max-width: 767.98px) {
+    .competences-container-main {
+        flex-direction: column;
+        height: auto;
+
+        .competences-column {
+            padding-bottom: 20px;
+        }
+    }
+}

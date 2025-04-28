@@ -20,6 +20,7 @@
         display: flex;
         align-items: center;
         width: 75%;
+        padding-left: 15px;
     }
 }
 
@@ -78,5 +79,33 @@
         font-size: 38px;
         margin-top: 0;
         padding-top: 32px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .introduction {
+        flex-direction: column;
+        height: auto;
+
+        .introduction-left {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            img {
+                width: 150px;
+                height: 150px;
+            }
+        }
+        .introduction-right {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            padding-left: 10px;
+        }
+    }
+    .formations-section {
+        .autodidacte {
+            width: 90%;
+        }
     }
 }

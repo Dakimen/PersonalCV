@@ -83,3 +83,24 @@ background: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.3) 49
     from {opacity: 0; visibility:hidden;}
     to {opacity: 1; visibility: visible;}
 }
+
+@media (max-width: 767.98px) {
+    .link {
+        height: 300px;
+
+        .project-card {
+            .project-card-over {
+                background: linear-gradient(180deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.9) 49%, rgba(0, 0, 0, 0.9) 100%);
+                .project-title {
+                    font-size: 20px;
+                }
+                .project-card-description {
+                    font-size: 15px;
+                    .longer {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}
