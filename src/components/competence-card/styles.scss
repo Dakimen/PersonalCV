@@ -1,0 +1,15 @@
+.competence-card {
+    box-shadow: 2px 2px 2px black;
+    height: 50px;
+    display: flex;
+    align-items: center;
+
+    img {
+        height: 35px;
+        width: 35px;
+    }
+
+    span {
+        padding-left: 10px;
+    }
+}

@@ -1,17 +1,20 @@
 import React from "react";
+import "./styles.scss";
+import { Link } from "react-router-dom";
 
 function ProjectCard ({project}) {
     return (
-        <div className="project-card">
-            <h3 className="project-title">{project.name}</h3>
-            <div className="screenshot">
-                <img src={project.screenshot} />
+        <Link className="link" to={project.link}>
+        <div className="project-card" style={{ backgroundImage: `url(${project.screenshot})` }}>
+            <div className="project-card-over">
+                <h3 className="project-title">{project.name}</h3>
+                <div className="project-card-description">
+                    <p className="longer">{project.longerdescription}</p>
+                    <p className="shorter">{project.shortdescription}</p>
+                    <span>Technologies utilisées : {project.technologies}</span>
+                </div> 
             </div>
-            <div className="project-card-description">
-                <p>{project.shortdescription}</p>
-                <span>{project.technologies}</span>
-            </div>
-        </div>
+        </div></Link>
     )
 }
 

@@ -1,15 +1,16 @@
-import React from "react"
+import React from "react";
 import { Link } from "react-router-dom";
+import "./styles.scss";
 
 const Header = () => {
+
     return (
-        <header>
+        <header className="header-bar">
         <h1>Akimenko Dmitry</h1>
         <nav>
             <ul>
-                <li><Link>Portfolio</Link></li>
-                <li><Link>Contact</Link></li>
-                <li>Eng</li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="mailto:dakimenko@yahoo.com">Contacter</a></li>
             </ul>
         </nav>
         </header>

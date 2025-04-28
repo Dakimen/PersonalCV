@@ -1,34 +1,38 @@
 [
     {
         "id": "NKC",
-        "name": "Kasa",
-        "screenshot": "/images/placeholder.webp",
-        "shortdescription": "short description",
-        "longerdescription": "longer description",
-        "technologies": "React, Sass, HTML"
+        "name": "Kasa - Application de location immobilière",
+        "screenshot": "/images/Kasa.webp",
+        "shortdescription": "Application React responsive simulant la location d'appartements ficitifs, avec la navigation dynamique et composants réutilisables",
+        "longerdescription": "Développement d'une application web responsive en React pour la location fictive d'appartements. Le projet propose une navigation fluide entre les pages, des composants réutilisables, un système de routing optimisé avec React Router. L'interface est moderne, accessible et conforme aux bonnes pratiques de développement frontend",
+        "technologies": "React, Sass, HTML",
+        "link": "https://dakimen.github.io/KasaReact/"
     },
     {
         "id": "QKD",
-        "name": "Bluel",
-        "screenshot": "/images/placeholder.webp",
-        "shortdescription": "short description",
-        "longerdescription": "longer description",
-        "technologies": "JavaScript, CSS, HTML"
+        "name": "Bluel - Site d'architecte",
+        "screenshot": "/images/Bluel.webp",
+        "shortdescription": "Site portfolio fictive et responsive, développé en JavaScript vanilla, mettant en avant la galerie dynamique d'oeuvres architecturales et un système d'autentification simple",
+        "longerdescription": "Création d'un site web responsive en JavaScript vanilla pour présenter un portfolio d'architecte. Intégration d'une galerie d'images filtrable dynamiquement, d'un système de connexion sécurisé côté client, et d'une interface d'administration simplifiée pour la gestion des projets. Le projet respecte les bonnes pratiques d'accessibilité et de performance web.",
+        "technologies": "JavaScript, CSS, HTML",
+        "link": "https://github.com/Dakimen/architecteBluelP3"
     },
     {
         "id": "NUI",
-        "name": "Mon Vieux Grimoire",
-        "screenshot": "/images/placeholder.webp",
-        "shortdescription": "short description",
-        "longerdescription": "longer description",
-        "technologies": "Node.js, Express.js, MongoDB, jsonwebtoken, bcrypt, multer"
+        "name": "Mon Vieux Grimoire API",
+        "screenshot": "/images/Grimoire.webp",
+        "shortdescription": "Une API backend en Node.js, développée pour un site de gestion des livres fictive. L'API était conçue pour gérer et interagir avec une base de données MongoDB.",
+        "longerdescription": "GrimoireBackEnd utilise NodeJS pour offirir une solution backend flexible. Il inclut des fonctionnalités pour l'autentification, la gestion des utilisateurs, ainsi que les opérations CRUD et l'intégration avec une base de données.",
+        "technologies": "Node.js, Express.js, MongoDB, jsonwebtoken, bcrypt, multer",
+        "link": "https://github.com/Dakimen/GrimoireBackEnd"
     },
     {
         "id": "I90",
         "name": "Carte de visite en ligne",
-        "screenshot": "/images/placeholder.webp",
-        "shortdescription": "short description",
-        "longerdescription": "longer description",
-        "technologies": "React, Sass, HTML5"
+        "screenshot": "/images/CVwebsite.webp",
+        "shortdescription": "Site CV moderne développé en React pour une experience rapide et interactive. Il utilise Sass pour une gestion avancée et modulable des styles.",
+        "longerdescription": "Site CV moderne développé en React pour une experience rapide et interactive. Il utilise Sass pour une gestion avancée et modulable des styles. Toutes les données (projets, compétences, formations suivies) sont chargés dynamiquement depuis des fichiers JSON, ce qui facilite la mise à jour du contenu sans modifier le code source.",
+        "technologies": "React, Sass, HTML5",
+        "link": "https://github.com/Dakimen"
     }
 ]

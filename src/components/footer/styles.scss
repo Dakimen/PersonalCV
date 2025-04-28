@@ -1,0 +1,60 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+    background-color: #E6E6FA;
+
+    h3 {
+        padding-left: 10px;
+        margin: 0;
+    }
+
+    a {
+        color: black;
+        text-decoration: none;
+    .buttonContact {
+        display: flex;
+        border:#3B3B38 solid 1.6px;
+        position: relative;
+        overflow:hidden;
+        border-radius: 50px;
+        justify-content:center;
+        align-items: center;
+        width: 150px;
+        height: 30px;
+        margin-right: 80px;
+        font-size: 19px;
+        
+
+        &:hover {
+            animation: popup 0.5s;
+            width: 200px; 
+            height:40px;
+            font-size: 25px;
+        }
+    }}
+    .socialMedia {
+        display: flex;
+        padding-right: 10px;
+        width: 90px;
+
+        img {
+            width: 40px;
+            &:hover {
+                animation: popImg 0.5s;
+                width: 50px;
+            }
+        }
+    }
+}
+
+@keyframes popup {
+    from {width: 150px; height:30px; font-size: 19px;}
+    to {width: 200px; height:40px; font-size: 25px;}
+}
+
+@keyframes popImg {
+    from{width: 40px;}
+    to{width: 50px;}
+}

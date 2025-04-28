@@ -8,16 +8,17 @@ import certificats from "../../assets/data/certificats.json"
 import diplomes from "../../assets/data/diplomes.json"
 import Projects from "../../components/projects/Projects";
 import projectArchive from "../../assets/data/projects.json";
+import placeholder from "/images/placeholder.webp"
+import "./styles.scss";
 
 const Home = () => {
     return(
-        <div>
-            <Banner title="Web Developper" image={bgImage}/>
+        <div className="home">
+            <Banner title="Développeur Web" image={bgImage}/>
             <div className="introduction">
                 
                 <div className="introduction-left">
-                    <p>Akimenko Dmitry</p>
-                    <img src="" className="circlePhoto" />
+                    <img src={placeholder} className="circlePhoto" />
                 </div>
                 <div className="introduction-right">
                     <p>Développeur web passionné, je maîtrise l’intégration HTML/CSS, le développement JavaScript avec React, ainsi que le backend avec Node.js. J’optimise les performances, le SEO et assure la qualité du code grâce à mon experience en debug avec les Chrome Web Tools</p>
@@ -35,12 +36,11 @@ const Home = () => {
                 <Collapse title={"Certificats obtenus"} content={certificats} />
                 <Collapse title={"Bac+2 : Developpeur Web Openclassrooms (2025)"} content={diplomes} />
             </div>
-            <div className="projects-sections">
+            <div className="projects-section"  id="portfolio">
                 <h2>Mes projets</h2>
                 <Projects projects={projectArchive} />
             </div>
-            <div className="contacts-section">
-                <h2>Mes contacts</h2>
+            <div className="contacts-section" id="contacts">
                 
             </div>
         </div>

@@ -2,79 +2,73 @@
 	{
 		"id": "1",
 		"name": "JavaScript",
-		"image": "",
+		"image": "/images/javascript-logo.webp",
 		"type": "frontend"
 	},
 	{
 		"id": "2",
 		"name": "React",
-		"image": "",
+		"image": "/images/react-2.svg",
 		"type": "frontend"
 	},
 	{
 		"id": "3",
 		"name": "HTML5 et CSS3",
-		"image":"",
+		"image":"/images/html5-2.svg",
 		"type":"frontend"
 	},
 	{
 		"id": "4",
 		"name": "Sass",
-		"image": "",
+		"image": "/images/sass-1.svg",
 		"type":"frontend"
 	},
 	{
 		"id": "5",
 		"name": "Node.js",
-		"image": "",
+		"image": "/images/nodejs-2.svg",
 		"type":"backend"
 	},
 	{
 		"id": "6",
 		"name": "C++",
-		"image": "",
-		"type":"backend"
-	},
-	{
-		"id": "7",
-		"name": "Express.js",
-		"image": "",
+		"image": "/images/c.svg",
 		"type":"backend"
 	},
 	{
 		"id": "8",
 		"name": "Git/Github",
-		"image": "",
+		"image": "/images/icons8-github.svg",
 		"type":"tool"
 	},
 	{
 		"id": "9",
 		"name": "Visual Studio Code",
-		"image": "",
+		"image": "/images/visual-studio-code-1.svg",
 		"type":"tool"
 	},
 	{
 		"id": "10",
 		"name": "Code::Blocks",
-		"image": "",
+		"image": "/images/codeblocks.webp",
 		"type":"tool"
 	},
 	{
 		"id": "11",
 		"name": "Wave and Chrome Dev Tools",
-		"image": "",
+		"image": "/images/wave-2.svg",
 		"type":"tool"
 	},
 	{
 		"id": "12",
 		"name": "MongoDB",
-		"image": "",
+		"image": "/images/mongodb-icon-2.svg",
 		"type":"tool"
 	},
 	{
 		"id": "13",
 		"name": "Figma",
-		"image": "",
+		"image": "/images/figma-icon.svg",
 		"type":"tool"
 	}
 ]
