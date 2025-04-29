@@ -2,7 +2,7 @@
     {
         "id": "NKC",
         "name": "Kasa - Application de location immobilière",
-        "screenshot": "/images/Kasa.webp",
+        "screenshot": "https://github.com/Dakimen/PersonalCV/blob/main/src/assets/images/Kasa.webp",
         "alt": "Aperçu de site Kasa",
         "shortdescription": "Application React responsive simulant la location d'appartements ficitifs, avec la navigation dynamique et composants réutilisables",
         "longerdescription": "Développement d'une application web responsive en React pour la location fictive d'appartements. Le projet propose une navigation fluide entre les pages, des composants réutilisables, un système de routing optimisé avec React Router. L'interface est moderne, accessible et conforme aux bonnes pratiques de développement frontend. C'était mon premier projet en React, ainsi que le premier projet publié sur github pages, ce qui a requis de faire un build du projet et de créer un branch ne contenant que le fichier /dist.",
@@ -12,7 +12,7 @@
     {
         "id": "QKD",
         "name": "Bluel - Site d'architecte",
-        "screenshot": "/images/Bluel.webp",
+        "screenshot": "https://github.com/Dakimen/PersonalCV/blob/main/src/assets/images/Bluel.webp",
         "alt": "Aperçu de site Bluel",
         "shortdescription": "Site portfolio fictive et responsive, développé en JavaScript vanilla, mettant en avant la galerie dynamique d'oeuvres architecturales et un système d'autentification simple",
         "longerdescription": "Création d'un site web responsive en JavaScript vanilla pour présenter un portfolio d'architecte. Intégration d'une galerie d'images filtrable dynamiquement, d'un système de connexion sécurisé côté client, et d'une interface d'administration simplifiée pour la gestion des projets. Le projet respecte les bonnes pratiques d'accessibilité et de performance web. Initiallement la création des modales et l'ajout des fichiers m'ont posés problème, mais j'ai pu le résoudre grâce à display none qui change sur clic du bouton et input type file.",
@@ -22,7 +22,7 @@
     {
         "id": "NUI",
         "name": "Mon Vieux Grimoire API",
-        "screenshot": "/images/Grimoire.webp",
+        "screenshot": "https://github.com/Dakimen/PersonalCV/blob/main/src/assets/images/Grimoire.webp",
         "alt": "Aperçu du page github de l'API",
         "shortdescription": "Une API backend en Node.js, développée pour un site de gestion des livres fictive. L'API était conçue pour gérer et interagir avec une base de données MongoDB.",
         "longerdescription": "GrimoireBackEnd utilise NodeJS pour offirir une solution backend flexible. Il inclut des fonctionnalités pour l'autentification, la gestion des utilisateurs, ainsi que les opérations CRUD et l'intégration avec une base de données. C'était mon prémier projet backend et j'ai appris à utiliser les fichiers .env pour cacher les informations sensibles, ainsi que de faire attention au routage et mettre les routes nommés en dessus de routes /:id pour assurer le routage correct.",
@@ -32,7 +32,7 @@
     {
         "id": "I90",
         "name": "Carte de visite en ligne",
-        "screenshot": "/images/CVwebsite.webp",
+        "screenshot": "https://github.com/Dakimen/PersonalCV/blob/main/src/assets/images/CVwebsite.webp",
         "alt": "Aperçu de site CV enligne",
         "shortdescription": "Site CV moderne développé en React pour une experience rapide et interactive. Il utilise Sass pour une gestion avancée et modulable des styles.",
         "longerdescription": "Site CV moderne développé en React pour une experience rapide et interactive. Il utilise Sass pour une gestion avancée et modulable des styles. Toutes les données (projets, compétences, formations suivies) sont chargés dynamiquement depuis des fichiers JSON, ce qui facilite la mise à jour du contenu sans modifier le code source. J'ai appris de créer des animations simples à l'aide de @keyframes css et d'ajouter des icones au fond transparent grâce aux fichiers .svg.",

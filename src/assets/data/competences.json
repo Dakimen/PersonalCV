@@ -3,84 +3,84 @@
 		"id": "1",
 		"name": "JavaScript",
 		"alt": "logo JavaScript",
-		"image": "/images/javascript-logo.webp",
+		"image": "https://github.com/Dakimen/PersonalCV/blob/main/src/assets/images/javascript-logo.webp",
 		"type": "frontend"
 	},
 	{
 		"id": "2",
 		"name": "React",
 		"alt": "logo React",
-		"image": "/images/react-2.svg",
+		"image": "https://github.com/Dakimen/PersonalCV/blob/main/src/assets/images/react-2.svg",
 		"type": "frontend"
 	},
 	{
 		"id": "3",
 		"name": "HTML5 et CSS3",
 		"alt": "logo HTML5",
-		"image":"/images/html5-2.svg",
+		"image":"https://github.com/Dakimen/PersonalCV/blob/main/src/assets/images/html5-2.svg",
 		"type":"frontend"
 	},
 	{
 		"id": "4",
 		"name": "Sass",
 		"alt": "logo Sass",
-		"image": "/images/sass-1.svg",
+		"image": "https://github.com/Dakimen/PersonalCV/blob/main/src/assets/images/sass-1.svg",
 		"type":"frontend"
 	},
 	{
 		"id": "5",
 		"name": "Node.js",
 		"alt": "logo Node.js",
-		"image": "/images/nodejs-2.svg",
+		"image": "https://github.com/Dakimen/PersonalCV/blob/main/src/assets/images/nodejs-2.svg",
 		"type":"backend"
 	},
 	{
 		"id": "6",
 		"name": "C++",
 		"alt": "logo C++",
-		"image": "/images/c.svg",
+		"image": "https://github.com/Dakimen/PersonalCV/blob/main/src/assets/images/c.svg",
 		"type":"backend"
 	},
 	{
 		"id": "8",
 		"name": "Git/Github",
 		"alt": "logo Github",
-		"image": "/images/icons8-github.svg",
+		"image": "https://github.com/Dakimen/PersonalCV/blob/main/src/assets/images/icons8-github.svg",
 		"type":"tool"
 	},
 	{
 		"id": "9",
 		"name": "Visual Studio Code",
 		"alt": "logo Visual Studio Code",
-		"image": "/images/visual-studio-code-1.svg",
+		"image": "https://github.com/Dakimen/PersonalCV/blob/main/src/assets/images/visual-studio-code-1.svg",
 		"type":"tool"
 	},
 	{
 		"id": "10",
 		"name": "Code::Blocks",
 		"alt": "logo Code Blocks",
-		"image": "/images/codeblocks.webp",
+		"image": "https://github.com/Dakimen/PersonalCV/blob/main/src/assets/images/codeblocks.webp",
 		"type":"tool"
 	},
 	{
 		"id": "11",
 		"name": "Wave and Chrome Dev Tools",
 		"alt": "logo Wave",
-		"image": "/images/wave-2.svg",
+		"image": "https://github.com/Dakimen/PersonalCV/blob/main/src/assets/images/wave-2.svg",
 		"type":"tool"
 	},
 	{
 		"id": "12",
 		"name": "MongoDB",
 		"alt": "logo MongoDB",
-		"image": "/images/mongodb-icon-2.svg",
+		"image": "https://github.com/Dakimen/PersonalCV/blob/main/src/assets/images/mongodb-icon-2.svg",
 		"type":"tool"
 	},
 	{
 		"id": "13",
 		"name": "Figma",
 		"alt": "logo Figma",
-		"image": "/images/figma-icon.svg",
+		"image": "https://github.com/Dakimen/PersonalCV/blob/main/src/assets/images/figma-icon.svg",
 		"type":"tool"
 	}
 ]
