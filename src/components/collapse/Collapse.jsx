@@ -12,7 +12,7 @@ const Collapse = ({ title, content }) => {
       <div className={Open ? "collapsedTextOpen" : "collapsedTextClosed"}>
         <div className="contentimg">
         {content.map((content) => (
-          <img key={content.id} src={content.image} className={Open ? "open" : "closed"}/>
+          <img key={content.id} src={content.image} className={Open ? "open" : "closed"} alt={content.alt}/>
         ))}</div>
       </div>
     </div>

@@ -8,7 +8,7 @@ import certificats from "../../assets/data/certificats.json"
 import diplomes from "../../assets/data/diplomes.json"
 import Projects from "../../components/projects/Projects";
 import projectArchive from "../../assets/data/projects.json";
-import placeholder from "/images/placeholder.webp"
+import placeholder from "../../assets/images/me.webp"
 import "./styles.scss";
 
 const Home = () => {
@@ -18,7 +18,7 @@ const Home = () => {
             <div className="introduction">
                 
                 <div className="introduction-left">
-                    <img src={placeholder} className="circlePhoto" />
+                    <img src={placeholder} className="circlePhoto" alt="Photo de Dmitry" />
                 </div>
                 <div className="introduction-right">
                     <p>Développeur web passionné, je maîtrise l’intégration HTML/CSS, le développement JavaScript avec React, ainsi que le backend avec Node.js. J’optimise les performances, le SEO et assure la qualité du code grâce à mon experience en debug avec les Chrome Web Tools</p>

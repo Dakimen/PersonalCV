@@ -1,6 +1,7 @@
 [
     {
         "id": "ret2a32",
-        "image": "/images/placeholderDiplome.webp"
+        "image": "/images/placeholderDiplome.webp",
+        "alt": "diplome Openclassrooms bac+2 Développeur Web"
     }
 ]

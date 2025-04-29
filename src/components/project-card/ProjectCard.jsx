@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 function ProjectCard ({project}) {
     return (
         <Link className="link" to={project.link}>
-        <div className="project-card" style={{ backgroundImage: `url(${project.screenshot})` }}>
+        <div className="project-card" style={{ backgroundImage: `url(${project.screenshot})` }} title={project.alt}>
             <div className="project-card-over">
                 <h3 className="project-title">{project.name}</h3>
                 <div className="project-card-description">

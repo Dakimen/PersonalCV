@@ -13,10 +13,10 @@ const Footer = () => {
             </div></a>
             <div className="socialMedia">
                 <div className="iconArea">
-                    <a href=""><img src={linkedInIcon}></img></a>
+                    <a href=""><img src={linkedInIcon} alt="logo LinkedIn"></img></a>
                 </div>
                 <div className="iconArea">
-                    <a href=""><img src={Insta}></img></a>
+                    <a href=""><img src={Insta} alt="logo Instagram"></img></a>
                 </div>
             </div>
         </div>
