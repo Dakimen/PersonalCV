@@ -9,7 +9,7 @@ const Navigation = () => {
     <BrowserRouter>
       <Header />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/PersonalCV/" element={<Home />} />
       </Routes>
       <Footer />
     </BrowserRouter>
