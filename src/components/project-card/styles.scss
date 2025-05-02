@@ -21,7 +21,7 @@
         align-items: center;
         text-align: center;
         background: #000000;
-background: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.3) 49%, rgba(0, 0, 0, 0.9) 100%);
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.3) 49%, rgba(0, 0, 0, 0.9) 100%);
         flex-direction: column;
         justify-content: space-between;
 
@@ -96,7 +96,7 @@ background: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.3) 49
 
 @media (max-width: 767.98px) {
     .link {
-        height: 300px;
+        height: 500px;
 
         .project-card {
             .project-card-over {
@@ -108,6 +108,12 @@ background: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.3) 49
                     font-size: 15px;
                     .longer {
                         display: none;
+                    }
+                    .shorter {
+                        position: relative;
+                    }
+                    span {
+                        position: relative;
                     }
                 }
             }

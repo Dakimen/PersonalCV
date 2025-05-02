@@ -1,10 +1,9 @@
 import React from "react";
 import "./styles.scss";
-import { Link } from "react-router-dom";
 
 function ProjectCard ({project}) {
     return (
-        <Link className="link" to={project.link}>
+        <a className="link" href={project.link}>
         <div className="project-card" style={{ backgroundImage: `url(${project.screenshot})` }} title={project.alt}>
             <div className="project-card-over">
                 <h3 className="project-title">{project.name}</h3>
@@ -14,7 +13,7 @@ function ProjectCard ({project}) {
                     <span>Technologies utilisées : {project.technologies}</span>
                 </div> 
             </div>
-        </div></Link>
+        </div></a>
     )
 }
 
